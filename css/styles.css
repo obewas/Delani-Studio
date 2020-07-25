@@ -1,0 +1,71 @@
+.container .top {
+    background-image: url(/images/h_img.jpg);
+    text-align: center;
+    color: white;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: 1220px 500px;
+    height: 600px;
+    padding: 20px 20px;
+    background-position: center center;
+    padding-bottom: 0px;
+
+}
+.container .top img {
+ size: 50px 50px;
+ padding-top: 150px;
+}
+
+.container .top p {
+   font-size: xx-small;
+   
+}
+.container top h4 {
+    font-weight: bold;
+}
+.container .about h4 {
+    text-align: center;
+}
+.container .about p {
+    text-align: center;
+}
+.container .services h4 {
+    text-align: center;
+    color: white;
+}
+.container .services p {
+    text-align: center;
+    color: white;
+}
+.container .services {
+    background-image: url(/images/s_image.jpg);
+}
+.container .wwd h4 {
+    text-align: center;
+}
+.container .wwd .wwd-icons-row {
+display: inline-flex
+   
+}
+.container .portfolio h4 {
+    text-align: center;
+}
+#first-row {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 20px
+    
+
+}
+#second-row {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 20px
+}
+
+
+@media only screen and (max-width: 767px) {
+    body {
+      background-color: turquoise;
+    }
+  }
