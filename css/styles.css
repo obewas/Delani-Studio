@@ -95,7 +95,19 @@ display: inline-flex
 .pop-up .show {
     visibility: visible;
 }
-
+.container-icons {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    align-items: center;
+    padding-left: 450px;
+}
+figcaption {
+text-align: center;
+}
+#design-p {
+    visibility: hidden;
+}
 
 
 @media only screen and (max-width: 767px) {
