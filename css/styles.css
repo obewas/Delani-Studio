@@ -62,8 +62,25 @@ display: inline-flex
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-gap: 20px
 }
+.container .contact h4 {
+    text-align: center;
+    color: white;
+}
+.container .contact {
+    background-image: url(/images/c_image.jpg);
+    height: 200px;
+}
+.container .socialmedia {
+    text-align: center;
+}
+.container .contact .forms {
+    display: inline;
+    text-align: center;
+    opacity: 5;
 
+    
 
+}
 @media only screen and (max-width: 767px) {
     body {
       background-color: turquoise;
