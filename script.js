@@ -1,5 +1,7 @@
 $(document).ready(function(){
-  $("h3").click(function(){
-    $(this).hide();
-  })
+  $("#design").click(function(){
+    $("#design-p").toggle();
+
+});
+
 });
