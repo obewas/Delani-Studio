@@ -1,8 +1,7 @@
 $(document).ready(function(){
-    function myFunction() {
-        var popup = document.getElementById("myPopup");
-        popup.classList.toggle("show");
+function myFunction() {
+    document.getElementById("demo").innerHTML = "Hello World";
       }
+    
 
-
-  });
+});
