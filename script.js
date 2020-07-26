@@ -1,7 +1,5 @@
 $(document).ready(function(){
-function myFunction() {
-    document.getElementById("demo").innerHTML = "Hello World";
-      }
-    
-
+  $("h3").click(function(){
+    $(this).hide();
+  })
 });
