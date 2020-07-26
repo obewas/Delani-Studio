@@ -3,7 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script
+  src="https://code.jquery.com/jquery-3.5.1.min.js"
+  integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0="
+  crossorigin="anonymous"></script>></script>
     <link rel="stylesheet" href="./css/styles.css" type="text/css">
     <title>Document</title>
 
@@ -38,20 +41,33 @@
     <div class="container">
         <div class="wwd">
             <h4><strong>WHAT WE DO</strong></h4>
-                <br>         
-
-                <div class="popup" onclick="myFunction()"><img src="./images/design_icon.png"><p>DESIGN</p>
-                        <span class="popuptext" id="myDesign">Our design practice offers a full range of services including brand strategy, interaction and visual design and user experience testing.
+                <br> 
+                <div class=pop-up>
+                    <form action="onclick" name="" method="">
+                        <input type="image" name="popup" src="./images/design_icon.png">
+                        <figcaption>DESIGN</figcaption>
+                        <span class="popuptext" id=myPopuup>Our design practice offers a full range of services including brand strategy, interaction and visual design and user experience testing.
                             Throughout your project, our designers create and implement visual design and workflows, solicit user feedback and work with you to make sure what gets built is what is needed.</span>
+                    </form>
+                    <br>
+                    <form action="" name="" method="">
+                        <input type="image" name="popup" src="./images/dev_icon.png">
+                        <figcaption>DEVELOPMENT</figcaption>
+                    </form>
+                    <br>
+                    <form action="" name="" method="">
+                        <input type="image" name="popup" src="./images/product_icon.png">
+                        <figcaption>PRODUCT MANAGEMENT</figcaption>
+                    </form>
+
                 </div>
-                <div class="popup" onclick="myFunction()"><img src="./images/dev_icon.png"><p>DEVELOPMENT</p>
-                    <span class="popuptext" id="myDevelopment">All engineers are fluent in the latest enterprise, mobile and web development technologies.
-                        They collaborate with your team to write, and improve code on a daily basis, using proven practices such as test-driven development and pair programming.</span>
+                <div>
+                    <button id="trial" onclick = "myFunction "type="button">Try Me!</button>
+
                 </div>
-                <div class="popup" onclick="myFunction()"><img src="/images/product_icon.png"><p>PRODUCT MANAGEMENT</p>
-                <span class="popuptext" id="myProduct">Planning and development is iterative. Because we are constantly coding and testing, the products we build are always ready to go live. 
-                    This iterative process allows for changes as business requirements evolve.</span>
-                </div>
+                
+
+                
               
         </div>
     </div>   
@@ -109,4 +125,5 @@
         <P style="text-align: center;">DELANI STUDIO<br>2019</P>
     </div>
 </body>
+
 </html>

@@ -77,10 +77,27 @@ display: inline-flex
     display: inline;
     text-align: center;
     opacity: 5;
-
-    
-
+  
 }
+
+.container .wwd .pop-up {
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+    
+}
+.popup .popuptext {
+    visibility: hidden;
+}
+.popup .popuptext::after {
+    content: "";
+}
+.pop-up .show {
+    visibility: visible;
+}
+
+
+
 @media only screen and (max-width: 767px) {
     body {
       background-color: turquoise;
