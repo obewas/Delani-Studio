@@ -3,5 +3,10 @@ $(document).ready(function(){
     $("#design-p").show();
 
 });
+$( "li.fade" ).hover(function() {
+  $( this ).fadeOut( 100 );
+  $( this ).fadeIn( 500 );
+});
+
 
 });
