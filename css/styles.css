@@ -50,18 +50,25 @@ display: inline-flex
 .container .portfolio h4 {
     text-align: center;
 }
-#first-row {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-gap: 20px
+.first-row {
+   float: left;
     
+}
+.first-row img {
+    width: 300px;
+    height: 250px;
+}
+.second-row {
+   float: left;
+}
+.second-row img {
+    width: 300px;
+    height: 250px;
+}
 
-}
-#second-row {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-gap: 20px
-}
+
+
+
 .container .contact h4 {
     text-align: center;
     color: white;
@@ -105,10 +112,18 @@ display: inline-flex
 figcaption {
 text-align: center;
 }
-#design-p {
+.design-popup {
     visibility: hidden;
+    text-align: center;
 }
-
+.dev-popup {
+   visibility: hidden;
+   text-align: center;
+}
+.prod-popup {
+    visibility: hidden;
+    text-align: center;
+}
 
 @media only screen and (max-width: 767px) {
     body {
