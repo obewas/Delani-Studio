@@ -76,6 +76,9 @@ display: inline-flex
 .container .contact {
     background-image: url(/images/c_image.jpg);
     height: 200px;
+    display: inline-flex;
+    padding-top: 40px;
+    background-size: cover;
 }
 .container .socialmedia {
     text-align: center;
