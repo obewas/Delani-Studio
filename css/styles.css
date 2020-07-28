@@ -112,6 +112,10 @@ display: inline-flex
     align-items: center;
     padding-left: 450px;
 }
+
+.container-icons #dev {
+    padding-right: 600px;
+}
 figcaption {
 text-align: center;
 }
@@ -127,7 +131,31 @@ text-align: center;
     display: none;
     text-align: center;
 }
-
+input-div {
+    margin: 20px;
+    position: relative;
+    display: inline-block;
+  }
+  .popup-box {
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    padding: 3px;
+    width: 50%;
+    background: #ccc;
+    display: none;
+  }
+  .info {
+    cursor: pointer;
+  }
+  .popup-box h1 {
+    text-align: center;
+    font-weight: bold;
+  }
+  .popup-box p {
+    text-align: center;
+  }
 
 @media only screen and (max-width: 767px) {
     body {
