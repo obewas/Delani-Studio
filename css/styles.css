@@ -1,5 +1,5 @@
 .container .top {
-    background-image: url(/images/h_img.jpg);
+    background-image: url("../images/h_img.jpg");
     text-align: center;
     color: white;
     background-size: cover;
@@ -38,7 +38,7 @@
     color: white;
 }
 .container .services {
-    background-image: url(/images/s_image.jpg);
+    background-image: url("../images/s_image.jpg");
 }
 .container .wwd h4 {
     text-align: center;
@@ -74,7 +74,7 @@ display: inline-flex
     color: white;
 }
 .container .contact {
-    background-image: url(/images/c_image.jpg);
+    background-image: url("../images/c_image.jpg");
     height: 200px;
     display: inline-flex;
     padding-top: 40px;
@@ -136,7 +136,7 @@ input-div {
     position: relative;
     display: inline-block;
   }
-  .popup-box {
+  .popup-box-design, .popup-box-dev, .popup-box-prod{
     position: absolute;
     left: 0;
     top: 0;
