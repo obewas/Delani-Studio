@@ -65,10 +65,6 @@ display: inline-flex
     width: 300px;
     height: 250px;
 }
-
-
-
-
 .container .contact h4 {
     text-align: center;
     color: white;
@@ -87,7 +83,6 @@ display: inline-flex
     display: inline;
     text-align: center;
     opacity: 5;
-  
 }
 
 .container .wwd .pop-up {
@@ -155,6 +150,9 @@ input-div {
   }
   .popup-box p {
     text-align: center;
+  }
+  #zoom:hover {
+      opacity: 0.7;
   }
 
 @media only screen and (max-width: 767px) {
