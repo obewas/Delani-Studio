@@ -1,12 +1,10 @@
 $(document).ready(function(){
-  $("#design").click(function(){
-    $("#design-p").show();
-
-});
-$( "li.fade" ).hover(function() {
-  $( this ).fadeOut( 100 );
-  $( this ).fadeIn( 500 );
-});
-
+  $("#zoom").mouseenter(function(){
+    $("#zoom").css("background-color", "yellow");
+  
+  });
+  $("#zoom").mouseleave(function(){
+    $("#zoom").css("background-color", "white");
+  });
 
 });
