@@ -115,18 +115,19 @@ display: inline-flex
 figcaption {
 text-align: center;
 }
-.design-popup {
-    visibility: hidden;
+.text-1 {
+    display: none;
     text-align: center;
 }
-.dev-popup {
-   visibility: hidden;
+.text-2 {
+     display: none;
    text-align: center;
 }
-.prod-popup {
-    visibility: hidden;
+.text-3 {
+    display: none;
     text-align: center;
 }
+
 
 @media only screen and (max-width: 767px) {
     body {
