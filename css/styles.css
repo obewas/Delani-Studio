@@ -1,14 +1,15 @@
 .container .top {
-    background-image: url(/images/h_img.jpg);
+    background-image: url("../images/h_img.jpg");
     text-align: center;
     color: white;
     background-size: cover;
     background-repeat: no-repeat;
     background-size: 1220px 500px;
     height: 600px;
-    padding: 20px 20px;
+    
     background-position: center center;
     padding-bottom: 0px;
+    width: 100%;
 
 }
 .container .top img {
@@ -25,7 +26,7 @@
 }
 .container .about h4 {
     text-align: center;
-}
+}clear
 .container .about p {
     text-align: center;
 }
@@ -38,7 +39,18 @@
     color: white;
 }
 .container .services {
-    background-image: url(/images/s_image.jpg);
+    background-image: url("../images/s_image.jpg");
+    background-size: cover;
+    width: 100%;
+    background-position: center center;
+
+    text-align: center;
+    
+    
+    background-repeat: no-repeat;
+    background-size: 1220px 500px;
+    opacity: 1;
+
 }
 .container .wwd h4 {
     text-align: center;
@@ -47,47 +59,81 @@
 display: inline-flex
    
 }
+.container .portfolio {
+    text-align: center;
+    
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: 1220px 500px;
+    
+    
+    background-position: center center;
+    padding-bottom: 0px;
+    width: 100%;
+    padding-left: 22px;
+}
+
+
+
 .container .portfolio h4 {
     text-align: center;
-}
-#first-row {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-gap: 20px
     
-
 }
-#second-row {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-gap: 20px
+.first-row {
+   float: left;
+    
+}
+.first-row img {
+    width: 300px;
+    height: 250px;
+}
+.second-row {
+   float: left;
+}
+.second-row img {
+    width: 300px;
+    height: 250px;
 }
 .container .contact h4 {
     text-align: center;
     color: white;
 }
-.container .contact {
-    background-image: url(/images/c_image.jpg);
-    height: 200px;
+.container-contact {
+    background-image: url("../images/c_image.jpg");
+    
+    display: inline-flex;
+    padding-top: 40px;
+    background-size: cover;
+    width: 100%;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: 1220px 500px;
+    height: 400px;
+    background-position: center center;
+    padding-bottom: 0px;
+   
 }
 .container .socialmedia {
     text-align: center;
+  
+    
 }
 .container .contact .forms {
     display: inline;
     text-align: center;
     opacity: 5;
-  
 }
 
 .container .wwd .pop-up {
     display: inline-block;
     position: relative;
     cursor: pointer;
+    font-size: xx-small;
     
 }
 .popup .popuptext {
     visibility: hidden;
+    font-size: xx-small;
 }
 .popup .popuptext::after {
     content: "";
@@ -95,8 +141,77 @@ display: inline-flex
 .pop-up .show {
     visibility: visible;
 }
+.container-icons {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    align-items: center;
+    padding-left: 200px;
+}
+#btn-dev {
+    padding-left: 300px;
+}
+
+figcaption {
+text-align: center;
+}
+.text-1 {
+    display: none;
+    text-align: center;
+}
+.text-2 {
+     display: none;
+   text-align: center;
+}
+.text-3 {
+    display: none;
+    text-align: center;
+}
+input-div {
+    margin: 20px;
+    position: relative;
+    display: inline-block;
+  }
+  .popup-box-design, .popup-box-dev, .popup-box-prod{
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    padding: 3px;
+    width: 30%;
+    background: #ccc;
+    display: none;
+  }
+  .info {
+    cursor: pointer;
+  }
+  .popup-box h1 {
+    text-align: center;
+    font-weight: bold;
+  }
+  .popup-box p {
+    text-align: center;
+  }
+  #zoom:hover {
+      opacity: 0.7;
+  }
+  #mc_embed_signup_scroll h2 {
+      text-align: center;
+      color: white;
+      padding-top: 0;
+  }
 
 
+.mc-field-group {
+    color: white;
+}
+  
+
+  .mc-field-group {
+      display: inline-flex;
+      
+      
+  }
 
 @media only screen and (max-width: 767px) {
     body {
