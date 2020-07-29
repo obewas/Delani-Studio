@@ -24,6 +24,9 @@
 .container top h4 {
     font-weight: bold;
 }
+.container .about {
+    text-align: center;
+}
 .container .about h4 {
     text-align: center;
 }clear
